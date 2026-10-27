@@ -9,3 +9,7 @@
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="https://tu-enlace-de-imagen-clara.png" width="100%" alt="Header Banner" />
+</p>
