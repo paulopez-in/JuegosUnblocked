@@ -1,39 +1,21 @@
-# 🏎️ Guía de instalación de SuperTuxKart (Mario Kart de Linux)
+# Guia de instalacion del Mario Kart de Linux
+![Uploading imatge.png…]()
 
-Guía paso a paso para ejecutar el juego en Linux (LliureX) de forma portable y sin permisos de administrador (`sudo`).
+1. Descargar el archivo del juego (`tar.gz`) y ponlo en una carpeta solo para el archivo del juego y.
 
----
+2. Una vez descargado vas a la carpeta del juego, lo extraes donde sea.
 
-## 🚀 Método Principal (Nativo de Linux)
+3. Asegurate de que el archivo ejecutor, en este caso el `run_game.sh` tenga permisos de ejecución, para eso click derecho -> propiedades, y asegurate de marcar la casilla de la imagen o con un `chmod +x run_game.sh` en la cmd.
 
-1. **Descargar el juego:**
-   Descarga el archivo del juego (`.tar.gz`) y colócalo en una carpeta dedicada.
+*(Arrastra aquí la imagen de los permisos de acceso)*
 
-2. **Extraer el contenido:**
-   Una vez descargado, ve a la carpeta del juego y extráelo donde prefieras.
-
-3. **Dar permisos de ejecución:**
-   Asegúrate de que el archivo ejecutor (en este caso `run_game.sh`) tenga permisos de ejecución.
-   * **Desde la interfaz gráfica:** Haz clic derecho sobre `run_game.sh` -> **Propiedades** y marca la casilla **"És executable"** (Es ejecutable).
-   * **Desde la terminal:**
-     ```bash
-     chmod +x run_game.sh
-     ```
-
-   <!-- Pega o arrastra aquí la captura de las propiedades del archivo -->
-   *(Arrastra aquí la imagen de los permisos de ejecución)*
-
-4. **Ejecutar el juego:**
-   Una vez dentro de la carpeta extraída, ejecuta el juego haciendo doble clic sobre el archivo `run_game.sh`.
+4. Una vez en la carpeta que se especifica, ejecutas el juego mediante el archivo `.sh` haciendo doble click encima.
 
 ---
 
-## 🛠️ ¿Qué hacer si no funciona el doble clic?
+### SI NO FUNCIONA
 
-### Opción A: Ejecutar desde la terminal (Recomendado)
-
-Abre la terminal, navega hasta la carpeta del juego y ejecuta el script manualmente:
-
+5. Prueba en la terminal:
 ```bash
-cd ~/emu/TuxKart
-./run_game.sh
+paulopgri@lliurex-optiplex5070:~/emu$ cd ~/emu/TuxKart
+pauloport@lliurex-optiplex5070:~/emu/TuxKarts/run_game.sh
