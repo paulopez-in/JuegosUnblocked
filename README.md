@@ -1,4 +1,4 @@
-# JuegosUnblockedPlus
+# JuegosUnblocked
 <table width="100%">
 <tr>
 <td bgcolor="#f6f8fa" align="center">
