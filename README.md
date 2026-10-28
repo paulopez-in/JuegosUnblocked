@@ -1,4 +1,4 @@
-# GameUnblocked
+# GameUnblocked 🇪🇸
 
 <table width="100%">
 <tr>
